@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:food}",
+            "name": "Debug FatLossTracker",
+            "target": "FatLossTracker",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug FatLossTracker"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:food}",
+            "name": "Release FatLossTracker",
+            "target": "FatLossTracker",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release FatLossTracker"
+        }
+    ]
+}

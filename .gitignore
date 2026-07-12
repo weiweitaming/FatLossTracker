@@ -1,0 +1,22 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Generated app bundles and release artifacts
+*.app/
+*.dmg
+*.zip
+
+# Xcode and macOS
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+Secrets.*
+*.key
+*.pem
