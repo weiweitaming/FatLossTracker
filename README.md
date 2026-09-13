@@ -5,11 +5,15 @@
 一个通过 vibe coding 完成的原生 macOS 减脂记录应用。它把每日饮食、宏量营养素、体重趋势、训练日计划和 AI 营养分析放在同一个桌面端工具里。
 
 ## 界面预览
+减脂助手仪表盘
 
 ![减脂助手仪表盘](docs/images/dashboard.png)
 
+饮食分析与 AI 营养估算
+
 ![饮食分析与 AI 营养估算](docs/images/food-analysis.png)
 
+训练日与休息日饮食计划
 ![训练日与休息日饮食计划](docs/images/plan.png)
 
 
