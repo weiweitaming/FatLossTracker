@@ -6,9 +6,15 @@ A native macOS fat-loss tracking app built through vibe coding. It brings daily 
 
 ## Interface Preview
 
+FatLossTracker Dashboard
+
 ![FatLossTracker dashboard](docs/images/dashboard.png)
 
+AI-Assisted Food Analysis and Nutrition Estimation
+
 ![AI-assisted food analysis](docs/images/food-analysis.png)
+
+Training-Day and Rest-Day Meal Plans
 
 ![Training-day and rest-day meal plans](docs/images/plan.png)
 
