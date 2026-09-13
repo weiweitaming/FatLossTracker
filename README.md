@@ -2,25 +2,27 @@
 
 一个通过 vibe coding 完成的原生 macOS 减脂记录应用。它把每日饮食、宏量营养素、体重趋势、训练日计划和 AI 营养分析放在同一个桌面端工具里。
 
-![减脂助手仪表盘](docs/images/dashboard.png)
-
 ## 界面预览
 
-<p align="center">
-  <img src="docs/images/food-analysis.png" alt="饮食分析与 AI 营养估算" width="49%">
-  <img src="docs/images/plan.png" alt="训练日与休息日饮食计划" width="49%">
-</p>
+![减脂助手仪表盘](docs/images/dashboard.png)
 
-<p align="center"><sub>自然语言饮食分析 · 训练日与休息日计划</sub></p>
+![饮食分析与 AI 营养估算](docs/images/food-analysis.png)
+
+![训练日与休息日饮食计划](docs/images/plan.png)
+
 
 ## 功能
 
-- 记录早餐、午餐、晚餐与加餐，查看每日营养摄入和 14 天热量变化
-- 支持手动录入，也可以通过兼容 OpenAI Chat Completions 协议的服务解析自然语言饮食描述
+- 记录早餐、午餐、晚餐与加餐，查看每日营养摄入和热量变化
 - 自定义常吃食物库，并按训练日/休息日使用饮食模板
+- 支持手动录入，也可以通过 AI 解析饮食描述，并且参考自定义食物库录入
 - 记录体重与体脂趋势，并生成减脂建议
 - 生成和保存家常菜谱
 - 导出当天饮食 CSV
+
+## 自定义调整（没有显式修改）
+- 可以让 AI 调整休息日与训练日的规定摄入热量
+- 可以切换不同的 AI 模型，只要调整api_key和api_base
 
 ## 环境与运行
 
@@ -53,3 +55,6 @@ swift run FatLossTracker
 
 这是一个可用的早期版本，目前尚未接入 HealthKit。AI 返回属于估算结果，不能替代医生或注册营养师的建议。
 
+## License
+
+[MIT](LICENSE)
