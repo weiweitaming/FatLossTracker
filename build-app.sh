@@ -24,10 +24,12 @@ chmod +x "$APP_DIR/Contents/MacOS/FatLossTracker"
 codesign --force --deep --sign - "$APP_DIR"
 
 echo "✅ 完成！App 位置: $APP_DIR"
-echo ""
-echo "💡 可以拖到桌面或应用程序文件夹"
-echo "🚀 要启动吗？输入 y"
-read -r answer
-if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
-    open "$APP_DIR"
+if [ -t 0 ]; then
+    echo ""
+    echo "💡 可以拖到桌面或应用程序文件夹"
+    echo "🚀 要启动吗？输入 y"
+    read -r answer
+    if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
+        open "$APP_DIR"
+    fi
 fi
