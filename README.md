@@ -2,6 +2,17 @@
 
 一个通过 vibe coding 完成的原生 macOS 减脂记录应用。它把每日饮食、宏量营养素、体重趋势、训练日计划和 AI 营养分析放在同一个桌面端工具里。
 
+![减脂助手仪表盘](docs/images/dashboard.png)
+
+## 界面预览
+
+<p align="center">
+  <img src="docs/images/food-analysis.png" alt="饮食分析与 AI 营养估算" width="49%">
+  <img src="docs/images/plan.png" alt="训练日与休息日饮食计划" width="49%">
+</p>
+
+<p align="center"><sub>自然语言饮食分析 · 训练日与休息日计划</sub></p>
+
 ## 功能
 
 - 记录早餐、午餐、晚餐与加餐，查看每日营养摄入和 14 天热量变化
